@@ -10,11 +10,11 @@ public class LibraryTest {
 
         //*показать, что `bookTitle` недоступен напрямую и задаётся только через сеттер/геттер;
         //Напряму нельзя поменять
-        lab1.BookTitle = "veveveqw";
+        //lab1.BookTitle = "veveveqw";
         //Через сеттер можно
         lab1.setBookTitle("ыекрук");
         //Напрямую нельзя обратиться
-        System.out.println(lab1.BookTitle);
+        //System.out.println(lab1.BookTitle);
         //Через геттер можно
         System.out.println(lab1.getBookTitle());
 
