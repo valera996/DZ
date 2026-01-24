@@ -16,9 +16,9 @@ public class Switch {
     public static void dayOfWeek(){
         System.out.print("Введите число: ");
         Scanner scanner = new Scanner(System.in);
-        int ScannerNumber = scanner.nextInt();
+        int scannerNumber = scanner.nextInt();
 
-        switch(ScannerNumber){
+        switch(scannerNumber){
             case 1 -> System.out.println("Понедельник");
             case 2 -> System.out.println("Вторник");
             case 3 -> System.out.println("Среда");
@@ -40,13 +40,8 @@ public class Switch {
         int dayOfPrice = 450;
 
         switch(dayNumber){
-            case 1 -> System.out.println("Стоимость билета в кино: " + weekdayPrice);
-            case 2 -> System.out.println("Стоимость билета в кино: " + weekdayPrice);
-            case 3 -> System.out.println("Стоимость билета в кино: " + weekdayPrice);
-            case 4 -> System.out.println("Стоимость билета в кино: " + weekdayPrice);
-            case 5 -> System.out.println("Стоимость билета в кино: " + weekdayPrice);
-            case 6 -> System.out.println("Стоимость билета в кино: " + dayOfPrice);
-            case 7 -> System.out.println("Стоимость билета в кино: " + dayOfPrice);
+            case 1, 2, 3, 4, 5 -> System.out.println("Стоимость билета в кино: " + weekdayPrice);
+            case 6, 7 -> System.out.println("Стоимость билета в кино: " + dayOfPrice);
             default -> System.out.println("Кина не будет");
         }
     }

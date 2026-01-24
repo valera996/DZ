@@ -57,7 +57,7 @@ public class For {
             if(number % i == 0){
               isPrime = false;
               break;
-            }else isPrime = true;
+            }
 
         }
         System.out.println("Число " + number + " простое - " +isPrime );
