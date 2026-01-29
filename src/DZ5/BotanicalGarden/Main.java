@@ -30,17 +30,17 @@ package DZ5.BotanicalGarden;
 public class Main {
     public static void main(String[] args) {
 
-        BatanicalGarden batanicalGarden = new BatanicalGarden();
+        BotanicalGarden botanicalGarden = new BotanicalGarden();
         Cactus cactus = new Cactus();
         Orchid orchid = new Orchid();
 
 
-        batanicalGarden.setNewPlant(cactus);
-        batanicalGarden.takeCareOfPlant();
+        botanicalGarden.setNewPlant(cactus);
+        botanicalGarden.takeCareOfPlant();
 
         System.out.println();
 
-        batanicalGarden.setNewPlant(orchid);
-        batanicalGarden.takeCareOfPlant();
+        botanicalGarden.setNewPlant(orchid);
+        botanicalGarden.takeCareOfPlant();
     }
 }

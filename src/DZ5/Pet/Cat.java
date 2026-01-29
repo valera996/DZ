@@ -1,16 +1,14 @@
 package DZ5.Pet;
 
-public class Cat extends Pet implements Playble{
+public class Cat extends Pet implements Playable {
 
     private String food = "влажный корм";
 
-    public String getFood(){
-        return this.food;
-    }
+
 
     @Override
     public void eat(){
-        System.out.println("Кошка ест " + getFood());
+        System.out.println("Кошка ест " + food);
     }
 
     @Override

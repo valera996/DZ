@@ -8,12 +8,10 @@ public class HotDish extends Dish{
         this.temperature = temperature;
     }
 
-    public int getTemerature(){
-        return this.temperature;
-    }
+
 
     @Override
-    public void showCaracteristic(){
-        System.out.println("Температура блюда " + getTemerature());
+    public void showCharacteristic(){
+        System.out.println("Температура блюда " + temperature);
     }
 }

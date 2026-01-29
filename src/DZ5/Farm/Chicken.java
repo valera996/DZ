@@ -1,6 +1,6 @@
 package DZ5.Farm;
 
-public class Chiken extends LiveStock implements GivingProduct{
+public class Chicken extends LiveStock implements GivingProduct{
 
     @Override
     public void eat(){

@@ -1,6 +1,6 @@
 package DZ5.Aquarium;
 
-public abstract class SeaАnimal {
+public abstract class SeaAnimal {
 
     public abstract void move();
 }

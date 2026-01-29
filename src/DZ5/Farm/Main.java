@@ -31,18 +31,18 @@ public class Main {
 
         Farm farm = new Farm();
         Cow cow = new Cow();
-        Chiken chiken = new Chiken();
+        Chicken chicken = new Chicken();
 
 
 
         farm.setNewLiveStock(cow);
         farm.feedLiveStock();
-        farm.takeProduct();
+        farm.takeProduct(cow);
 
         System.out.println();
 
-        farm.setNewLiveStock(chiken);
+        farm.setNewLiveStock(chicken);
         farm.feedLiveStock();
-        farm.takeProduct();
+        farm.takeProduct(chicken);
     }
 }

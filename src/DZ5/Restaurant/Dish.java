@@ -2,5 +2,5 @@ package DZ5.Restaurant;
 
 public abstract class Dish {
 
-    public abstract void showCaracteristic();
+    public abstract void showCharacteristic();
 }

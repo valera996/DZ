@@ -1,6 +1,6 @@
 package DZ5.Restaurant;
 
-public class Restaraunt {
+public class Restaurant {
 
     private Dish dish;
 
@@ -9,6 +9,6 @@ public class Restaraunt {
     }
 
     public void showMenu(){
-        dish.showCaracteristic();
+        dish.showCharacteristic();
     }
 }

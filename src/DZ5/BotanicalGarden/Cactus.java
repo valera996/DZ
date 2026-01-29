@@ -6,16 +6,10 @@ public class Cactus extends Plant{
     private String watering = "Кактус требует редкий полив";
 
 
-    public String getLight(){
-        return this.light;
-    }
-    public String getWatering(){
-        return this.watering;
-    }
 
     @Override
     public void showRequirements(){
-        System.out.println(getLight()+ "\n" + getWatering());
+        System.out.println(light+ "\n" + watering);
     }
 
 }

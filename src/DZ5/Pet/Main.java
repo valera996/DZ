@@ -41,16 +41,18 @@ public class Main {
 
         petSystem.setNewPet(dog);
         petSystem.feedPet();
-        petSystem.walkWithPet();
-        petSystem.playWithPet();
+//        petSystem.walkWithPet();
+//        petSystem.playWithPet();
+        petSystem.walkWithPet(dog);
 
         //для отступа в консоли
         System.out.println();
 
         petSystem.setNewPet(cat);
         petSystem.feedPet();
-        petSystem.playWithPet();
-        petSystem.walkWithPet();
+//        petSystem.playWithPet();
+//        petSystem.walkWithPet();
+        petSystem.playWithPet(cat);
 
     }
 }

@@ -1,5 +1,5 @@
 package DZ5.Pet;
 
-public interface Walkble {
+public interface Walkable {
     public void walk();
 }

@@ -1,6 +1,6 @@
 package DZ5.Aquarium;
 
-public class Starfish extends SeaАnimal{
+public class Starfish extends SeaAnimal {
 
     @Override
     public void move(){

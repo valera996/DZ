@@ -8,12 +8,9 @@ public class Drink extends Dish{
         this.volume = volume;
     }
 
-    public double getVolume(){
-        return this.volume;
-    }
 
     @Override
-    public void showCaracteristic(){
-        System.out.println("Объём напитка " + getVolume());
+    public void showCharacteristic(){
+        System.out.println("Объём напитка " + volume);
     }
 }

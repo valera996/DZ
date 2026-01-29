@@ -1,6 +1,6 @@
 package DZ5.BotanicalGarden;
 
-public class BatanicalGarden {
+public class BotanicalGarden {
 
     private Plant plant;
 

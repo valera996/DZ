@@ -8,20 +8,28 @@ public class PetSystem {
     }
 
 
-    public void playWithPet(){
-        if(this.pet instanceof Playble) {
-            Playble playble = (Playble) this.pet;
-            playble.play();
-        }else System.out.println("Это животное не играет");
-
+//    public void playWithPet(){
+//        if(this.pet instanceof Playable) {
+//            Playable playable = (Playable) this.pet;
+//            playable.play();
+//        }else System.out.println("Это животное не играет");
+//
+//    }
+//
+//    public void walkWithPet(){
+//        if(this.pet instanceof Walkable){
+//            Walkable walkable = (Walkable) this.pet;
+//            walkable.walk();
+//        }else System.out.println("Это животное не гуляет");
+//    }
+//
+        public void playWithPet(Playable playable){
+        playable.play();
     }
+        public void walkWithPet(Walkable walkable){
+        walkable.walk();
+        }
 
-    public void walkWithPet(){
-        if(this.pet instanceof Walkble){
-            Walkble walkble = (Walkble) this.pet;
-            walkble.walk();
-        }else System.out.println("Это животное не гуляет");
-    }
 
     public void feedPet(){
         pet.eat();

@@ -2,9 +2,9 @@ package DZ5.Aquarium;
 
 public class Aquarium {
 
-    private SeaАnimal seaАnimal;
+    private SeaAnimal seaАnimal;
 
-    public void setNewSeaAnimal(SeaАnimal seaAnimal){
+    public void setNewSeaAnimal(SeaAnimal seaAnimal){
         this.seaАnimal = seaAnimal;
     }
 

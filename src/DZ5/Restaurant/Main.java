@@ -26,16 +26,16 @@ package DZ5.Restaurant;
 public class Main {
     public static void main(String[] args) {
 
-        Restaraunt restaraunt = new Restaraunt();
+        Restaurant restaurant = new Restaurant();
         HotDish hotDish = new HotDish(180);
         Drink drink = new Drink(0.5);
 
-        restaraunt.setNewDish(hotDish);
-        restaraunt.showMenu();
+        restaurant.setNewDish(hotDish);
+        restaurant.showMenu();
 
         System.out.println();
 
-        restaraunt.setNewDish(drink);
-        restaraunt.showMenu();
+        restaurant.setNewDish(drink);
+        restaurant.showMenu();
     }
 }
