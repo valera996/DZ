@@ -23,7 +23,17 @@ public class LinkedListTasks {
 
 //        Задача 2:
 //        Реализуйте очередь задач с LinkedList. Добавьте 3 задачи и обработайте их в порядке поступления.
-        List<String> queue = new LinkedList<>();
+//        List<String> queue = new LinkedList<>();
+//        queue.add("Task 1");
+//        queue.add("Task 2");
+//        queue.add("Task 3");
+//        System.out.println("Вывод результата второго задания:");
+//        while (!queue.isEmpty()){
+//            System.out.println(queue.removeFirst());
+//        }
+
+//        Задача 2: Исправленный вариант
+        LinkedList<String> queue = new LinkedList<>();
         queue.add("Task 1");
         queue.add("Task 2");
         queue.add("Task 3");
