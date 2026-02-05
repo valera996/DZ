@@ -9,15 +9,20 @@ public class DebugTask10 {
     public static void main(String[] args) {
         List<String> names = new ArrayList<>(Arrays.asList("Alice", "Bob", "Charlie"));
 
-        //Нельзя перебирать список через for и его же изменять
-        //Реализовал задачу через стрим
-        List<String> filteredNames = names.stream()
-                .filter(n -> !n.startsWith("A"))
-                .collect(Collectors.toList());
+//        //Нельзя перебирать список через for и его же изменять
+//        //Реализовал задачу через стрим
+//        List<String> filteredNames = names.stream()
+//                .filter(n -> !n.startsWith("A"))
+//                .collect(Collectors.toList());
+//
+//
+//        //Проверка результата
+//        System.out.println(filteredNames);
 
 
-        //Проверка результата
-        System.out.println(filteredNames);
+        //Второй вариант после проверки домашней работы
+        names.removeIf(name -> name.startsWith("A"));
+
 
     }
 }
